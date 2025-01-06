@@ -1,0 +1,9 @@
+# update according to your position
+decider_city: Braunschweig
+decider_country: Germany
+decider_latitude: 10.567912
+decider_longitute: 52.2758067
+decider_margin_minutes: 5
+decider_region: Europe/Berlin
+decider_send_to_NAS: True
+

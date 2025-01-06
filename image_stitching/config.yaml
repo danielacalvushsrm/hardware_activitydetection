@@ -1,0 +1,7 @@
+mqtt_ip: localhost
+mqtt_port: 1883
+mqtt_keepalive: 60
+db_host: localhost
+db_database: {ownDBName}
+db_user: {ownUser}
+db_password: {ownPW}

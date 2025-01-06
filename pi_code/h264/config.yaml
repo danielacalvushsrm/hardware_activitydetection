@@ -1,0 +1,48 @@
+# cluster params for DBScan
+cluster_min_samples: 2
+cluster_epsilon: 40
+# update location 
+decider_city: Braunschweig
+decider_country: Germany
+decider_latitude: 10.567912
+decider_longitute: 52.2758067
+decider_margin_minutes: 5
+decider_region: Europe/Berlin
+decider_send_to_NAS: True
+# threshold if the change in images is significant enough to start processing images
+diff_threshold: 60
+# resolution of the image
+greyimageResolutionHeight: 480
+greyimageResolutionWidth: 640
+# lucas canade and shi tomasi params
+lucasCanadeMaxLevel: 2
+lucasCanadeWinSize: 15
+shiTomashiBlockSize: 3
+shiTomashiMaxCorners: 100000
+shiTomashiMinDistance: 1
+shiTomashiqualityLevel: 0.01
+# resolution and color format of the video image
+mainResolutionHeight: 1280
+mainResolutionWidth: 960
+mainStreamColorFormat: RGB888
+# threshold of Activity level
+maskQueueActivityThreshold: 2
+maskQueueMaskColor:
+- 255
+- 0
+- 0
+# length of queue for gathering activity
+maskQueueMaxFrames: 50
+# mqtt connection
+mqtt_ip: xxx.xxx.xxx.xxx
+mqtt_keepalive: 60
+mqtt_port: 1883
+# how often a raw image is written to storage during video gathering (currently every 65th frame)
+rawImageInterval: 65
+#directories
+pickleOutputDirectory: /media/usbstick/pickle
+
+rawImageQutputDirectory: /media/usbstick/raw
+server_raw_folder: /media/nas/raw
+server_video_folder: /media/nas/videos
+videoOutputDirectory: /media/usbstick/videos

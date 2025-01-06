@@ -1,0 +1,5 @@
+# set your mqtt settings here
+mqtt_ip: xxx.xxx.xxx
+mqtt_port: 1883
+mqtt_keepalive: 60
+updateInterval: 60
